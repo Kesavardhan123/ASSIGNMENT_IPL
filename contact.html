@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ASSIGNMENT WEBPAGE</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style> 
+      div {
+        width: 100px;
+        height: 50px;
+        background-color: red;
+        position: relative;
+        animation: myfirst 5s linear 0s infinite alternate;
+      }
+      
+      @keyframes myfirst {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+      }
+      </style>
+  </head>
+  <body bgcolor="ccffcc">
+    <header>
+      <h1>RESTAURANT</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="active"><a href="feedback.html">feedback</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Contact Us</h2>
+        <p>Feel free to contact us with any questions or feedback. We'll get back to you as soon as possible.</p>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <center>
+    <div><b>THANK YOU</b></div>
+  </center>
+    
+  </body>
+</html>
