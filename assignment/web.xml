@@ -1,0 +1,22 @@
+<web-app>
+
+<servlet>
+    <servlet-name>hello</servlet-name>
+    <servlet-class>p1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>hello</servlet-name>
+    <url-pattern>/HelloWorld</url-pattern>
+  </servlet-mapping>
+  
+
+   <servlet>
+    <servlet-name>regNo</servlet-name>
+    <servlet-class>ass2</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+    <servlet-name>regNo</servlet-name>
+    <url-pattern>/yourrank</url-pattern>
+ </servlet-mapping>
+</web-app>
